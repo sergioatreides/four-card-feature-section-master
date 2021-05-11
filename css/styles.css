@@ -16,50 +16,6 @@ body {
     background-color: var(--very-light-gray);
 }
 
-.card-album {
-    display: flex;
-    width: 90vw;
-    height: 90vh;
-    border: 1px solid blue;
-}
-.card {
-    position: relative;
-    width: 35vw;
-    height: 40vh;
-    padding: 10px 30px;
-    border-radius: 5px;
-    background-color: var(--white);
-    filter: drop-shadow(0px 0px 9px hsl(229, 6%, 66%));
-}
-h1 {
-    margin: 15px 0px;
-}
-.card p {
-    color: var(--grayish-blue);
-    margin-top: 10px;
-}
-#supervisor-c {
-    border-top: 4px solid var(--cyan);
-    align-self: center;
-}
-#teambuilder-c {
-    border-top: 4px solid var(--red);
-    align-self: flex-start;
-}
-#karma-c {
-    border-top: 4px solid var(--orange);
-    align-self:flex-end;
-}
-#calculator-c {
-    border-top: 4px solid var(--blue);
-    align-self: center;
-}
-.icon {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    margin-top: 3em;
-}
 
 
 
